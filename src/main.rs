@@ -1,5 +1,5 @@
 mod aoc1;
-// mod aoc2;
+mod aoc2;
 // mod aoc3;
 // mod aoc4;
 // mod aoc5;
@@ -28,7 +28,7 @@ mod aoc1;
 fn main() {
     let calc = match std::env::args().nth(1).unwrap().as_str() {
         "1" => aoc1::calc,
-        // "2" => aoc2::calc,
+        "2" => aoc2::calc,
         // "3" => aoc3::calc,
         // "4" => aoc4::calc,
         // "5" => aoc5::calc,
