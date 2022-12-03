@@ -1,4 +1,4 @@
-fn getScore(str: &str) -> i32 {
+fn get_score(str: &str) -> i32 {
     return match str {
         "A X" => 1+3,
         "B X" => 1+0,
@@ -13,7 +13,7 @@ fn getScore(str: &str) -> i32 {
     };
 }
 
-fn getScore2(str: &str) -> i32 {
+fn get_score2(str: &str) -> i32 {
     return match str {
         "A X" => 3+0,
         "B X" => 1+0,
@@ -31,7 +31,7 @@ fn getScore2(str: &str) -> i32 {
 fn calc1() -> i32 {
     let mut sum = 0;
     for line in INPUT.lines() {
-        sum += getScore(line);
+        sum += get_score(line);
     }
     return sum;
 }
@@ -39,7 +39,7 @@ fn calc1() -> i32 {
 fn calc2() -> i32 {
     let mut sum = 0;
     for line in INPUT.lines() {
-        sum += getScore2(line);
+        sum += get_score2(line);
     }
     return sum;
 }
