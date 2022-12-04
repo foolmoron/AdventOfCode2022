@@ -1,2 +1,2 @@
 # Advent of Code 2022
-Trying again!
+Trying Rust this time!
