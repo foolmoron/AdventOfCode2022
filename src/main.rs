@@ -1,8 +1,8 @@
 mod aoc1;
 mod aoc2;
 mod aoc3;
-// mod aoc4;
-// mod aoc5;
+mod aoc4;
+mod aoc5;
 // mod aoc6;
 // mod aoc7;
 // mod aoc8;
@@ -30,8 +30,8 @@ fn main() {
         "1" => aoc1::calc,
         "2" => aoc2::calc,
         "3" => aoc3::calc,
-        // "4" => aoc4::calc,
-        // "5" => aoc5::calc,
+        "4" => aoc4::calc,
+        "5" => aoc5::calc,
         // "6" => aoc6::calc,
         // "7" => aoc7::calc,
         // "8" => aoc8::calc,
