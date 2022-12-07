@@ -4,7 +4,7 @@ mod aoc3;
 mod aoc4;
 mod aoc5;
 mod aoc6;
-// mod aoc7;
+mod aoc7;
 // mod aoc8;
 // mod aoc9;
 // mod aoc10;
@@ -33,7 +33,7 @@ fn main() {
         "4" => aoc4::calc,
         "5" => aoc5::calc,
         "6" => aoc6::calc,
-        // "7" => aoc7::calc,
+        "7" => aoc7::calc,
         // "8" => aoc8::calc,
         // "9" => aoc9::calc,
         // "10" => aoc10::calc,
