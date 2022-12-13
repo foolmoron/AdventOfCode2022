@@ -64,7 +64,6 @@ fn calc2() -> i32 {
         })
         .collect::<Vec<_>>();
 
-    let mut sum = 0;
     let mut cycle = 0;
     let mut reg_x = 1;
     while !instructions.is_empty() {
