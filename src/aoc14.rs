@@ -140,6 +140,9 @@ fn calc2() -> i32 {
 }
 
 pub fn calc() {
+    if false {
+        calc1();
+    }
     println!("{}\n{}", 0, calc2());
 }
 
