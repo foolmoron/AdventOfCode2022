@@ -91,8 +91,8 @@ fn covered_ranges(sensors: &Vec<Sensor>, y: i32) -> Vec<RangeInclusive<i32>> {
 
 fn calc1() -> i32 {
     let sensors = parse();
-    // println!("{:?}", sensors);
-    // count_and_print(&sensors, RANGE);
+    println!("{:?}", sensors);
+    count_and_print(&sensors, RANGE);
     return 0;
 }
 

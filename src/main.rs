@@ -13,7 +13,8 @@ mod aoc12;
 mod aoc13;
 mod aoc14;
 mod aoc15;
-// mod aoc16;
+mod aoc16;
+mod aoc16b;
 // mod aoc17;
 // mod aoc18;
 // mod aoc19;
@@ -42,7 +43,8 @@ fn main() {
         "13" => aoc13::calc,
         "14" => aoc14::calc,
         "15" => aoc15::calc,
-        // "16" => aoc16::calc,
+        "16" => aoc16::calc,
+        "16b" => aoc16b::calc,
         // "17" => aoc17::calc,
         // "18" => aoc18::calc,
         // "19" => aoc19::calc,
