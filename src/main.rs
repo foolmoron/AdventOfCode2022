@@ -23,7 +23,7 @@ mod aoc16b;
 // mod aoc22;
 // mod aoc23;
 // mod aoc24;
-// mod aoc25;
+mod aoc25;
 
 
 fn main() {
@@ -53,7 +53,7 @@ fn main() {
         // "22" => aoc22::calc,
         // "23" => aoc23::calc,
         // "24" => aoc24::calc,
-        // "25" => aoc25::calc,
+        "25" => aoc25::calc,
         &_ => todo!()
     };
     calc();
